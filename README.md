@@ -5,7 +5,10 @@
 
 
 
-
+# Live Site Application
+[Link to Live Site]()
+[Screenshot of Deployed Application](./assets/Images/ProjectPortfolio.jpg)
+[Link to Live Site Application](https://artvargas.github.io/week2portfolioproject/)
 
 
 
