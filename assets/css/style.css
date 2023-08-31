@@ -5,29 +5,37 @@
     
 }
 
+/*made changes to background color*/
 body {
     background-color:aliceblue
 }
 
+/*added padding to 20px*/
+/*included URL img for background*/
 .header {
-    padding: 20%;
+    padding: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-image: url("..//Images/pexels-ian-beckley-2440024.jpg");
     background-size: 100%;
     color: azure;
 }
 
+#Section1 img {
+height: 350px;
+width: 350px;
+}
+
 
 .header h1 {
  font-size: 40px;
- float:left;
+ 
 
 }
 
+/*Used nav header with inclusion of font-family and font size*/
 .header nav {
     padding-top: 20px;
     margin-right: 25px;
-    float: right;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 20px;
 }
@@ -37,12 +45,14 @@ body {
 }
 
 .header nav ul li {
-    display: inline-block;
+    display: inline;
     margin-left: 25px;
     
 }
 
 
+/*Included hero tag with height and width adjustments*/
+/*Included background img URL with background position set to center*/
 #hero {
     height: 40px;
     width: 100%;
@@ -50,10 +60,59 @@ body {
     background-image: url("..//Images/pexels-ian-beckley-2440024.jpg");
     background-size: cover;
     background-position: center;
-    
-
 }
 #section1 h1 {
     font-size: 100px;
 float: left;
+}
+
+.about {
+    font-size: 28px;
+    padding: 10px;
+}
+
+/*Used and included flex wrap with a gap of 15 px*/
+#Section2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+/*added card tags and adjusted padding and background with each card for display*/
+.card h3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    background-color: black;
+    color: azure;
+}
+
+.card {
+    width: 75%;
+    height: 500px;
+    position: relative;
+}
+
+.card img {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+    object-position: 0% 0%;
+} 
+.card2 {
+    width: 40%;
+    height: 500px;
+
+}
+
+.card2 img {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+    object-position: 0% 0%;
+}
+#Section1 {
+display: flex;
 }
